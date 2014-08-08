@@ -7,20 +7,36 @@
 //
 
 #import "SecondClass.h"
+
 @implementation SecondClass
 
 @synthesize firstObj;
 
--(void)initFirstObject:(int)intValue andFloat:(float)floatValue andBool:(BOOL)boolValue andChar:(char)charValue andString:(NSString *)stringValue andNumber:(NSNumber *)numValue
+-(void)initFirstObject
 {
     firstObj = [[FirstClass alloc] init];
-    
-    [firstObj setAllValues:intValue andFloat:floatValue andBool:boolValue andChar:charValue andString:stringValue andNumber:numValue];
-    [firstObj displayData];
-    NSLog(@"Sum : %f",[firstObj addAllNumbers]);
-    NSLog(@"String : %@",[firstObj appendCustomString:@" is everything"]);
-    NSLog(@"Square Sum : %f",[firstObj squareSumNum]);
+    [firstObj setAllValues];
 }
 
+
+-(void)displayFirstObject
+{
+    [firstObj displayData];
+}
+
+-(void)addNumbers
+{
+    NSLog(@"Sum : %f",[firstObj addAllNumbers]);
+}
+
+-(void)concatString
+{
+    NSLog(@"String : %@",[firstObj appendCustomString:@" is everything"]);
+}
+
+-(void)squareAndSum
+{
+    NSLog(@"Square Sum : %f",[firstObj squareSumNum]);
+}
 
 @end

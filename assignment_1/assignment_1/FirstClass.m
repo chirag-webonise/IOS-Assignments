@@ -10,26 +10,28 @@
 
 @implementation FirstClass
 
--(void)setAllValues:(int)intValue andFloat:(float)floatValue andBool:(BOOL)boolValue andChar:(char)charValue andString:(NSString *)stringValue andNumber:(NSNumber *)numValue
+-(void)setAllValues
 {
-
-    self.intValue = intValue;
-    self.floatValue = floatValue;
-    self.boolValue = boolValue;
-    self.charValue = charValue ;
-    self.stringValue = stringValue;
-    self.numValue = numValue;
+    
+    DataTypes *dataObj = [[DataTypes alloc ]init];
+    
+    _intValue = dataObj.intValue;
+    self.floatValue = dataObj.floatValue;
+    self.boolValue = dataObj.boolValue;
+    self.charValue = dataObj.charValue ;
+    self.stringValue = dataObj.stringValue;
+    self.numValue = dataObj.numValue;
 }
 
 -(void)displayData
 {
-    NSLog(@"int=%d float=%f bool=%d char=%c string=%@ number=%@",self.intValue,self.floatValue,self.boolValue,self.charValue,self.stringValue,self.numValue);
+    NSLog(@"int=%d float=%f bool=%d char=%c string=%@ number=%@",_intValue,_floatValue,_boolValue,_charValue,_stringValue,_numValue);
 }
 
 -(float)addAllNumbers
 {
     
-    float sum = (float)self.intValue + self.floatValue + [self.numValue floatValue];
+    float sum = (float)_intValue + _floatValue + _numValue.floatValue ;
     return sum;
 }
 

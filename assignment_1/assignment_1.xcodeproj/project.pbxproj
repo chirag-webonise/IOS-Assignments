@@ -12,6 +12,7 @@
 		59C2BE9A199342970024D104 /* assignment_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59C2BE99199342970024D104 /* assignment_1.1 */; };
 		59C2BEA2199343170024D104 /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C2BEA1199343170024D104 /* FirstClass.m */; };
 		59C2BEA5199343280024D104 /* SecondClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C2BEA4199343280024D104 /* SecondClass.m */; };
+		59C9F4C2199493300035EBC0 /* DataTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C9F4C1199493300035EBC0 /* DataTypes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		59C2BEA1199343170024D104 /* FirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
 		59C2BEA3199343280024D104 /* SecondClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondClass.h; sourceTree = "<group>"; };
 		59C2BEA4199343280024D104 /* SecondClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondClass.m; sourceTree = "<group>"; };
+		59C9F4C0199493300035EBC0 /* DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypes.h; sourceTree = "<group>"; };
+		59C9F4C1199493300035EBC0 /* DataTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				59C2BE97199342970024D104 /* Supporting Files */,
 				59C2BEA0199343170024D104 /* FirstClass.h */,
 				59C2BEA1199343170024D104 /* FirstClass.m */,
+				59C9F4C0199493300035EBC0 /* DataTypes.h */,
+				59C9F4C1199493300035EBC0 /* DataTypes.m */,
 			);
 			path = assignment_1;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59C2BEA5199343280024D104 /* SecondClass.m in Sources */,
+				59C9F4C2199493300035EBC0 /* DataTypes.m in Sources */,
 				59C2BE96199342970024D104 /* main.m in Sources */,
 				59C2BEA2199343170024D104 /* FirstClass.m in Sources */,
 			);
@@ -265,6 +271,7 @@
 				59C2BE9F199342970024D104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

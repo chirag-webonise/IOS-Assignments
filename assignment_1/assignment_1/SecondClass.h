@@ -7,13 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "FirstClass.h"
 
 @interface SecondClass : NSObject
 
 @property (strong, nonatomic) FirstClass* firstObj;
 
--(void)initFirstObject:(int)intValue andFloat: (float)floatValue andBool: (BOOL)boolValue andChar: (char)charValue andString: (NSString*)stringValue andNumber: (NSNumber*)numValue;
+-(void)initFirstObject;
+
+-(void)displayFirstObject;
+
+-(void)addNumbers;
+
+-(void)concatString;
+
+-(void)squareAndSum;
 
 @end

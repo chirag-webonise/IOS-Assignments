@@ -17,8 +17,16 @@ int main(int argc, const char * argv[])
         
         SecondClass * obj2 = [[SecondClass alloc] init];
         
-        [obj2 initFirstObject:12 andFloat:32.2 andBool:YES andChar:'c' andString:@"test" andNumber:[NSNumber numberWithInt:50]];
-
+        [obj2 initFirstObject];
+        
+        [obj2 displayFirstObject];
+        
+        [obj2 addNumbers];
+        
+        [obj2 concatString];
+        
+        [obj2 squareAndSum];
+        
     }
     return 0;
 }
