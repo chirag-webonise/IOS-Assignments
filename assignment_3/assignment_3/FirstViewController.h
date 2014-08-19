@@ -12,4 +12,6 @@
 
 @property IBOutlet UICollectionView * contactCollection;
 
+-(IBAction)goToContacts;
+
 @end

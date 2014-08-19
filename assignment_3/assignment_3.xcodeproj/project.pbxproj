@@ -35,6 +35,10 @@
 		594BAE9919A1D24400DADB86 /* taha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAE9119A1D24400DADB86 /* taha.jpg */; };
 		594BAE9A19A1D24400DADB86 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 594BAE9219A1D24400DADB86 /* favicon.ico */; };
 		594BAEA019A1DF8800DADB86 /* ContactCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAE9F19A1DF8800DADB86 /* ContactCollectionCell.m */; };
+		594BAF4C19A22C3700DADB86 /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF4A19A22C3700DADB86 /* steve.jpg */; };
+		594BAF4D19A22C3700DADB86 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF4B19A22C3700DADB86 /* bear.jpg */; };
+		594BAF5019A22F0D00DADB86 /* amitabh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF4E19A22F0D00DADB86 /* amitabh.jpg */; };
+		594BAF5119A22F0D00DADB86 /* amir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF4F19A22F0D00DADB86 /* amir.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +91,10 @@
 		594BAE9219A1D24400DADB86 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../../../favicon.ico; sourceTree = "<group>"; };
 		594BAE9E19A1DF8800DADB86 /* ContactCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCollectionCell.h; sourceTree = "<group>"; };
 		594BAE9F19A1DF8800DADB86 /* ContactCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCollectionCell.m; sourceTree = "<group>"; };
+		594BAF4A19A22C3700DADB86 /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = steve.jpg; path = ../../../../steve.jpg; sourceTree = "<group>"; };
+		594BAF4B19A22C3700DADB86 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bear.jpg; path = ../../../../bear.jpg; sourceTree = "<group>"; };
+		594BAF4E19A22F0D00DADB86 /* amitabh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amitabh.jpg; path = ../../../../amitabh.jpg; sourceTree = "<group>"; };
+		594BAF4F19A22F0D00DADB86 /* amir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = amir.jpg; path = ../../../../amir.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +210,10 @@
 				594BAE9019A1D24400DADB86 /* sr.jpg */,
 				594BAE9119A1D24400DADB86 /* taha.jpg */,
 				594BAE9219A1D24400DADB86 /* favicon.ico */,
+				594BAF4A19A22C3700DADB86 /* steve.jpg */,
+				594BAF4B19A22C3700DADB86 /* bear.jpg */,
+				594BAF4E19A22F0D00DADB86 /* amitabh.jpg */,
+				594BAF4F19A22F0D00DADB86 /* amir.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -299,12 +311,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				594BAE9819A1D24400DADB86 /* sr.jpg in Resources */,
+				594BAF5119A22F0D00DADB86 /* amir.jpg in Resources */,
 				594BAE9919A1D24400DADB86 /* taha.jpg in Resources */,
+				594BAF4D19A22C3700DADB86 /* bear.jpg in Resources */,
 				594BAE9A19A1D24400DADB86 /* favicon.ico in Resources */,
 				594BAE5C19A19A1F00DADB86 /* Images.xcassets in Resources */,
 				594BAE9719A1D24400DADB86 /* rahul.jpg in Resources */,
 				594BAE4B19A19A1F00DADB86 /* InfoPlist.strings in Resources */,
 				594BAE7E19A1C5CA00DADB86 /* ContactStoryboard.storyboard in Resources */,
+				594BAF5019A22F0D00DADB86 /* amitabh.jpg in Resources */,
+				594BAF4C19A22C3700DADB86 /* steve.jpg in Resources */,
 				594BAE9419A1D24400DADB86 /* murtaza.jpg in Resources */,
 				594BAE9519A1D24400DADB86 /* sachin.jpg in Resources */,
 				594BAE9619A1D24400DADB86 /* virat.jpg in Resources */,

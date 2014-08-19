@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59096B5F199C7A0E0038C613"
+               BlueprintIdentifier = "598DF92E199B25450073E963"
                BuildableName = "assignment_2.app"
                BlueprintName = "assignment_2"
                ReferencedContainer = "container:assignment_2.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "59096B80199C7A0E0038C613"
+               BlueprintIdentifier = "598DF94F199B25450073E963"
                BuildableName = "assignment_2Tests.xctest"
                BlueprintName = "assignment_2Tests"
                ReferencedContainer = "container:assignment_2.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59096B5F199C7A0E0038C613"
+            BlueprintIdentifier = "598DF92E199B25450073E963"
             BuildableName = "assignment_2.app"
             BlueprintName = "assignment_2"
             ReferencedContainer = "container:assignment_2.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59096B5F199C7A0E0038C613"
+            BlueprintIdentifier = "598DF92E199B25450073E963"
             BuildableName = "assignment_2.app"
             BlueprintName = "assignment_2"
             ReferencedContainer = "container:assignment_2.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "59096B5F199C7A0E0038C613"
+            BlueprintIdentifier = "598DF92E199B25450073E963"
             BuildableName = "assignment_2.app"
             BlueprintName = "assignment_2"
             ReferencedContainer = "container:assignment_2.xcodeproj">

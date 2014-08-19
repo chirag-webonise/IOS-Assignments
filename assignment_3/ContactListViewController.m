@@ -57,7 +57,32 @@
     contact6.contactAddress=@"Indore";
     contact6.contactImage=[UIImage imageNamed: @"murtaza.jpg"];
     
-    contacts = [[NSMutableArray alloc] initWithObjects:contact1,contact2,contact3,contact4,contact5,contact6, nil];
+    
+    Contact *contact7 = [[Contact alloc] init];
+    contact7.contactName=@"Bear Grylls";
+    contact7.contactNumber=@"+11895648142";
+    contact7.contactAddress=@"Alaska";
+    contact7.contactImage=[UIImage imageNamed: @"bear.jpg"];
+    
+    Contact *contact8 = [[Contact alloc] init];
+    contact8.contactName=@"Steve Jobs";
+    contact8.contactNumber=@"+11894541244";
+    contact8.contactAddress=@"Washington D.C";
+    contact8.contactImage=[UIImage imageNamed: @"steve.jpg"];
+    
+    Contact *contact9 = [[Contact alloc] init];
+    contact9.contactName=@"Amir Khan";
+    contact9.contactNumber=@"+91822574152";
+    contact9.contactAddress=@"Mumbai";
+    contact9.contactImage=[UIImage imageNamed: @"amir.jpg"];
+    
+    Contact *contact10 = [[Contact alloc] init];
+    contact10.contactName=@"Amitabh Bachchan";
+    contact10.contactNumber=@"+91894541244";
+    contact10.contactAddress=@"Mumbai";
+    contact10.contactImage=[UIImage imageNamed: @"amitabh.jpg"];
+    
+    contacts = [[NSMutableArray alloc] initWithObjects:contact7,contact8,contact2,contact1,contact3,contact4,contact5,contact6,contact10,contact9, nil];
     
     dictionaryContacts = [[NSMutableDictionary alloc] init];
     
@@ -72,16 +97,24 @@
         
         NSArray * valuesForKey =[[NSArray alloc] initWithArray:(NSArray*)[contacts filteredArrayUsingPredicate:predicate]];
         
-        [dictionaryContacts setObject:valuesForKey forKey:key];
+        NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"contactName" ascending:YES];
+        
+        NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+        
+        NSArray *sortedArray = [valuesForKey sortedArrayUsingDescriptors:sortDescriptors];
+        
+        [dictionaryContacts setObject:sortedArray forKey:key];
     }
-
+    
     contactSectionTitles = (NSMutableArray *)[[dictionaryContacts allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    
     [tableViewContacts reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -98,24 +131,14 @@
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    UIView *sectionView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 30)];
- 
- // Create custom view to display section header...
- 
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, tableView.frame.size.width, 20)];
-    [label setFont:[UIFont boldSystemFontOfSize:18]];
+    UIView *sectionView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 20)];
+    UILabel *labelSectionTitle = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, tableView.frame.size.width, 20)];
+    [labelSectionTitle setFont:[UIFont boldSystemFontOfSize:18]];
     NSString *string =[contactSectionTitles objectAtIndex:section];
-    
- //Section header is in 0th index...
- 
-    label.textColor=[UIColor colorWithRed:70.0f/255.0f green:200.0f/255.0f blue:200.0f/255.0f alpha:1.0f];
-    [label setText:string];
-    [sectionView addSubview:label];
-    //[sectionView setBackgroundColor:[UIColor whiteColor]];
- 
- //your background color...
- 
- return sectionView;
+    labelSectionTitle.textColor=[UIColor colorWithRed:70.0f/255.0f green:200.0f/255.0f blue:200.0f/255.0f alpha:1.0f];
+    [labelSectionTitle setText:string];
+    [sectionView addSubview:labelSectionTitle];
+    return sectionView;
 }
 
 
@@ -131,16 +154,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     cell = (ContactCell *)[tableViewContacts dequeueReusableCellWithIdentifier:@"contactCell" forIndexPath:indexPath];
- 
-    // Configure the cell...
-    
     NSString *sectionTitle = [contactSectionTitles objectAtIndex:indexPath.section];
     NSArray *sectionContact = [dictionaryContacts objectForKey:sectionTitle];
     
     cell.viewImage.layer.cornerRadius = cell.viewImage.frame.size.height /2;
     cell.viewImage.layer.masksToBounds = YES;
     cell.viewImage.layer.borderWidth = 0;
-
+    
     Contact * temp = [sectionContact objectAtIndex:indexPath.row];
     cell.lableName.text = temp.contactName;
     cell.lableNumber.text= temp.contactNumber;
@@ -148,10 +168,12 @@
     
     cell.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"favicon.ico"]];
     
+    NSLog(@"row: %lu", (unsigned long)indexPath.row);
+    
     if (indexPath.row%2 == 0)
     {
-        UIColor *altCellColor = [UIColor colorWithRed:70.0f/255.0f green:200.0f/255.0f blue:200.0f/255.0f alpha:1.0f];
-        cell.backgroundColor = altCellColor;
+
+        [cell setBackgroundColor:[UIColor colorWithRed:70.0f/255.0f green:200.0f/255.0f blue:200.0f/255.0f alpha:1.0f]];
     }
     return cell;
 }
@@ -175,8 +197,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection: (NSInteger)section
 {
-    // This will create a "invisible" footer
-    return 20.01f;
+    return 20.0f;
 }
 
 @end

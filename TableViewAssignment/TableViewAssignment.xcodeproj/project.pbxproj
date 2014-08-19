@@ -13,14 +13,24 @@
 		594BAF0219A1F9FE00DADB86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF0019A1F9FE00DADB86 /* InfoPlist.strings */; };
 		594BAF0419A1F9FE00DADB86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF0319A1F9FE00DADB86 /* main.m */; };
 		594BAF0819A1F9FE00DADB86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF0719A1F9FE00DADB86 /* AppDelegate.m */; };
-		594BAF0B19A1F9FE00DADB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF0919A1F9FE00DADB86 /* Main.storyboard */; };
-		594BAF0E19A1F9FE00DADB86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF0D19A1F9FE00DADB86 /* ViewController.m */; };
 		594BAF1019A1F9FE00DADB86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF0F19A1F9FE00DADB86 /* Images.xcassets */; };
 		594BAF1719A1F9FE00DADB86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594BAF1619A1F9FE00DADB86 /* XCTest.framework */; };
 		594BAF1819A1F9FE00DADB86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594BAEF719A1F9FE00DADB86 /* Foundation.framework */; };
 		594BAF1919A1F9FE00DADB86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594BAEFB19A1F9FE00DADB86 /* UIKit.framework */; };
 		594BAF2119A1F9FE00DADB86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF1F19A1F9FE00DADB86 /* InfoPlist.strings */; };
 		594BAF2319A1F9FE00DADB86 /* TableViewAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF2219A1F9FE00DADB86 /* TableViewAssignmentTests.m */; };
+		594BAF2D19A1FA3500DADB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF2C19A1FA3500DADB86 /* Main.storyboard */; };
+		594BAF3619A1FA7B00DADB86 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF2F19A1FA7B00DADB86 /* ContactListViewController.m */; };
+		594BAF3719A1FA7B00DADB86 /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF3119A1FA7B00DADB86 /* ContactCell.m */; };
+		594BAF3819A1FA7B00DADB86 /* DetailedContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF3319A1FA7B00DADB86 /* DetailedContactViewController.m */; };
+		594BAF3919A1FA7B00DADB86 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 594BAF3519A1FA7B00DADB86 /* Contact.m */; };
+		594BAF4119A1FAF100DADB86 /* murtaza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3A19A1FAF100DADB86 /* murtaza.jpg */; };
+		594BAF4219A1FAF100DADB86 /* sachin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3B19A1FAF100DADB86 /* sachin.jpg */; };
+		594BAF4319A1FAF100DADB86 /* virat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3C19A1FAF100DADB86 /* virat.jpg */; };
+		594BAF4419A1FAF100DADB86 /* rahul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3D19A1FAF100DADB86 /* rahul.jpg */; };
+		594BAF4519A1FAF100DADB86 /* sr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3E19A1FAF100DADB86 /* sr.jpg */; };
+		594BAF4619A1FAF100DADB86 /* taha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF3F19A1FAF100DADB86 /* taha.jpg */; };
+		594BAF4719A1FAF100DADB86 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 594BAF4019A1FAF100DADB86 /* favicon.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +54,28 @@
 		594BAF0519A1F9FE00DADB86 /* TableViewAssignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewAssignment-Prefix.pch"; sourceTree = "<group>"; };
 		594BAF0619A1F9FE00DADB86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		594BAF0719A1F9FE00DADB86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		594BAF0A19A1F9FE00DADB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		594BAF0C19A1F9FE00DADB86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		594BAF0D19A1F9FE00DADB86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		594BAF0F19A1F9FE00DADB86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		594BAF1519A1F9FE00DADB86 /* TableViewAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594BAF1619A1F9FE00DADB86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		594BAF1E19A1F9FE00DADB86 /* TableViewAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		594BAF2019A1F9FE00DADB86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		594BAF2219A1F9FE00DADB86 /* TableViewAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewAssignmentTests.m; sourceTree = "<group>"; };
+		594BAF2C19A1FA3500DADB86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		594BAF2E19A1FA7B00DADB86 /* ContactListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactListViewController.h; path = ../../assignment_3/ContactListViewController.h; sourceTree = "<group>"; };
+		594BAF2F19A1FA7B00DADB86 /* ContactListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactListViewController.m; path = ../../assignment_3/ContactListViewController.m; sourceTree = "<group>"; };
+		594BAF3019A1FA7B00DADB86 /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCell.h; path = ../../assignment_3/ContactCell.h; sourceTree = "<group>"; };
+		594BAF3119A1FA7B00DADB86 /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCell.m; path = ../../assignment_3/ContactCell.m; sourceTree = "<group>"; };
+		594BAF3219A1FA7B00DADB86 /* DetailedContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailedContactViewController.h; path = ../../assignment_3/DetailedContactViewController.h; sourceTree = "<group>"; };
+		594BAF3319A1FA7B00DADB86 /* DetailedContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailedContactViewController.m; path = ../../assignment_3/DetailedContactViewController.m; sourceTree = "<group>"; };
+		594BAF3419A1FA7B00DADB86 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = ../../assignment_3/Contact.h; sourceTree = "<group>"; };
+		594BAF3519A1FA7B00DADB86 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = ../../assignment_3/Contact.m; sourceTree = "<group>"; };
+		594BAF3A19A1FAF100DADB86 /* murtaza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = murtaza.jpg; path = ../../../../murtaza.jpg; sourceTree = "<group>"; };
+		594BAF3B19A1FAF100DADB86 /* sachin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sachin.jpg; path = ../../../../sachin.jpg; sourceTree = "<group>"; };
+		594BAF3C19A1FAF100DADB86 /* virat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virat.jpg; path = ../../../../virat.jpg; sourceTree = "<group>"; };
+		594BAF3D19A1FAF100DADB86 /* rahul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rahul.jpg; path = ../../../../rahul.jpg; sourceTree = "<group>"; };
+		594BAF3E19A1FAF100DADB86 /* sr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sr.jpg; path = ../../../TableViewTry/TableViewTry/sr.jpg; sourceTree = "<group>"; };
+		594BAF3F19A1FAF100DADB86 /* taha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = taha.jpg; path = ../../../../taha.jpg; sourceTree = "<group>"; };
+		594BAF4019A1FAF100DADB86 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = ../../../../favicon.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +109,7 @@
 				594BAF1C19A1F9FE00DADB86 /* TableViewAssignmentTests */,
 				594BAEF619A1F9FE00DADB86 /* Frameworks */,
 				594BAEF519A1F9FE00DADB86 /* Products */,
+				594BAF4819A1FB0900DADB86 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,9 +138,15 @@
 			children = (
 				594BAF0619A1F9FE00DADB86 /* AppDelegate.h */,
 				594BAF0719A1F9FE00DADB86 /* AppDelegate.m */,
-				594BAF0919A1F9FE00DADB86 /* Main.storyboard */,
-				594BAF0C19A1F9FE00DADB86 /* ViewController.h */,
-				594BAF0D19A1F9FE00DADB86 /* ViewController.m */,
+				594BAF2C19A1FA3500DADB86 /* Main.storyboard */,
+				594BAF2E19A1FA7B00DADB86 /* ContactListViewController.h */,
+				594BAF2F19A1FA7B00DADB86 /* ContactListViewController.m */,
+				594BAF3219A1FA7B00DADB86 /* DetailedContactViewController.h */,
+				594BAF3319A1FA7B00DADB86 /* DetailedContactViewController.m */,
+				594BAF3119A1FA7B00DADB86 /* ContactCell.m */,
+				594BAF3019A1FA7B00DADB86 /* ContactCell.h */,
+				594BAF3419A1FA7B00DADB86 /* Contact.h */,
+				594BAF3519A1FA7B00DADB86 /* Contact.m */,
 				594BAF0F19A1F9FE00DADB86 /* Images.xcassets */,
 				594BAEFE19A1F9FE00DADB86 /* Supporting Files */,
 			);
@@ -150,6 +180,20 @@
 				594BAF1F19A1F9FE00DADB86 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594BAF4819A1FB0900DADB86 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				594BAF3A19A1FAF100DADB86 /* murtaza.jpg */,
+				594BAF3B19A1FAF100DADB86 /* sachin.jpg */,
+				594BAF3C19A1FAF100DADB86 /* virat.jpg */,
+				594BAF3D19A1FAF100DADB86 /* rahul.jpg */,
+				594BAF3E19A1FAF100DADB86 /* sr.jpg */,
+				594BAF3F19A1FAF100DADB86 /* taha.jpg */,
+				594BAF4019A1FAF100DADB86 /* favicon.ico */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +272,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594BAF4219A1FAF100DADB86 /* sachin.jpg in Resources */,
+				594BAF2D19A1FA3500DADB86 /* Main.storyboard in Resources */,
+				594BAF4519A1FAF100DADB86 /* sr.jpg in Resources */,
 				594BAF1019A1F9FE00DADB86 /* Images.xcassets in Resources */,
+				594BAF4719A1FAF100DADB86 /* favicon.ico in Resources */,
+				594BAF4619A1FAF100DADB86 /* taha.jpg in Resources */,
+				594BAF4119A1FAF100DADB86 /* murtaza.jpg in Resources */,
+				594BAF4419A1FAF100DADB86 /* rahul.jpg in Resources */,
+				594BAF4319A1FAF100DADB86 /* virat.jpg in Resources */,
 				594BAF0219A1F9FE00DADB86 /* InfoPlist.strings in Resources */,
-				594BAF0B19A1F9FE00DADB86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				594BAF0E19A1F9FE00DADB86 /* ViewController.m in Sources */,
+				594BAF3719A1FA7B00DADB86 /* ContactCell.m in Sources */,
 				594BAF0819A1F9FE00DADB86 /* AppDelegate.m in Sources */,
+				594BAF3619A1FA7B00DADB86 /* ContactListViewController.m in Sources */,
+				594BAF3819A1FA7B00DADB86 /* DetailedContactViewController.m in Sources */,
+				594BAF3919A1FA7B00DADB86 /* Contact.m in Sources */,
 				594BAF0419A1F9FE00DADB86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +334,6 @@
 				594BAF0119A1F9FE00DADB86 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		594BAF0919A1F9FE00DADB86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				594BAF0A19A1F9FE00DADB86 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		594BAF1F19A1F9FE00DADB86 /* InfoPlist.strings */ = {

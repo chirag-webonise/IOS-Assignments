@@ -1,18 +1,32 @@
-//
-//  ViewController.m
-//  assignment_2
-//
-//  Created by Webonise on 14/08/14.
-//  Copyright (c) 2014 iosTraining. All rights reserved.
-//
 
 #import "ViewController.h"
+#import "ContactCellTableViewCell.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *simpleTableIdentifier = @"SimpleTableCell";
+    
+    ContactCellTableViewCell *cell = (ContactCellTableViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ContactCellTableViewCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+    }
+    
+    cell.nameLable.text = @"hello";
+    //cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    //cell.numberLabel.text = [prepTime objectAtIndex:indexPath.row];
+    
+    return cell;
+}
+
 
 - (void)viewDidLoad
 {

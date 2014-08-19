@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ContactCollectionCell : UICollectionViewCell
-{
-    IBOutlet UILabel * lableName;
-    IBOutlet UIImageView * imageContact;
-}
+
+@property IBOutlet UILabel * lableName;
+@property IBOutlet UIImageView * imageContact;
+
 @end
